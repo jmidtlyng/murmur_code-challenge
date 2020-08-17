@@ -1,0 +1,11 @@
+{
+    "package": {
+        "name": "murmurcodechallange/murmurcodechallange",
+        "version": "1.0.0",
+        "source": {
+          "url": "https://github.com/jmidtlyng/murmur_code-challenge.git",
+          "type": "git",
+          "reference": "master"
+        }
+    }
+}
