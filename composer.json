@@ -1,0 +1,22 @@
+{
+    "name": "murmurcodechallange/murmurcodechallange",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jacob Midtlyng",
+            "email": "jacobmidtlyng@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "2.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MurmurCodeChallenge\\": "src/MurmurCodeChallenge"
+        }
+    },
+    "scripts": {
+        "download-images": "MurmurCodeChallenge\\ImageDownloader::execute"
+    }
+}

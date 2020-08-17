@@ -1,0 +1,17 @@
+{
+    "input": {
+        "path": "input/images.csv",
+        "extensionsAllowed": [
+            "jpeg",
+            "jpg",
+            "png"
+        ]
+    },
+    "output": {
+        "images":
+            {
+                "directory": "output/images",
+                "overwrite": 0
+            }
+    }
+}
